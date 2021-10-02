@@ -1,0 +1,89 @@
+<!-- Z-INDEX e GRADIENT (praticando) -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática</title>
+
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px black solid;
+        }
+
+        #um{
+            background-color: red;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            z-index: 0;
+        }
+
+        #dois{
+            background-color: orange;
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            z-index: 1;
+        }
+        #tres{
+            background-color: green;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            z-index: 2;
+        }
+        #quatro{
+            background: linear-gradient(to right, red, yellow);
+            position: absolute;
+            top: 15%;
+            left: 25%;
+            z-index: 1;
+        }
+        #cinco{
+            background: linear-gradient(to right, yellow, green);
+            position: absolute;
+            top: 25%;
+            left: 35%;
+            z-index: 2;
+        }
+        #seis{
+            background: linear-gradient(to right, green, blue);
+            position: absolute;
+            top: 35%;
+            left: 45%;
+            z-index: 3;
+        }
+        #sete{
+            background: radial-gradient(green, blue);
+            position: absolute;
+            top: 45%;
+            left: 55%;
+            z-index: 4;
+        }
+        #oito{
+            background: radial-gradient(black,red, black, red);
+            position: absolute;
+            top: 55%;
+            left: 65%;
+            z-index: 5;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="um"></div>
+    <div id="dois"></div>
+    <div id="tres"></div>
+    <div id="quatro"></div>
+    <div id="cinco"></div>
+    <div id="seis"></div>
+    <div id="sete"></div>
+    <div id="oito"></div>
+</body>
+</html>
