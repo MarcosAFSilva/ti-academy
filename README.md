@@ -1,0 +1,9 @@
+# ti-academy
+Repositório de estudos do Bootcamp TI Academy
+
+ARQUIVOS DE EXERCICIOS EM HTML E CSS DO BOOTCAMP TI-ACADEMY
+
+EXERCICIOS DE ESTUDO
+
+DESAFIO 1
+DESAFIO 2
